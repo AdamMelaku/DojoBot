@@ -1,7 +1,13 @@
 source "https://rubygems.org"
 
+# Required gems for basic operation
 gem "lita"
 gem "lita-slack"
-gem "lita-abuse"
 
-gem 'lita-redis', '~> 0.1.0'
+# "For fun" functionality
+gem "lita-abuse"
+gem "lita-coin"
+gem 'lita-compliment'
+gem "lita-doge"
+gem "lita-down-for-everyone"
+gem "lita-should-i"

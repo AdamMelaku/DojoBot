@@ -26,7 +26,15 @@ GEM
       thor (>= 0.18.1)
     lita-abuse (0.2.0)
       lita (>= 4.6)
-    lita-redis (0.1.0)
+    lita-coin (0.0.3)
+      lita (>= 2.3)
+    lita-compliment (0.2.0)
+      lita (>= 4.6)
+    lita-doge (0.1.0)
+      lita (>= 4.7)
+    lita-down-for-everyone (0.0.4)
+      lita
+    lita-should-i (0.1.0)
       lita (>= 4.3)
     lita-slack (1.8.0)
       eventmachine
@@ -55,7 +63,11 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-abuse
-  lita-redis (~> 0.1.0)
+  lita-coin
+  lita-compliment
+  lita-doge
+  lita-down-for-everyone
+  lita-should-i
   lita-slack
 
 BUNDLED WITH

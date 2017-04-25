@@ -1,6 +1,6 @@
 Lita.configure do |config|
 
-  config.robot.name = "Dojo Bot"
+  config.robot.name = "DojoBot"
   config.robot.log_level = :info
   config.robot.adapter = :slack
 
